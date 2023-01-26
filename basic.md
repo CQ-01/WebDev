@@ -132,6 +132,46 @@ float: This property is used to float an element to the left or right of its par
 border: This property is used to set the border of an element.
 
 text-align: This property is used to align text within an element.
+
+background-image: This property is used to set a background image for an element.
+
+background-repeat: This property is used to specify whether a background image should be repeated or not.
+
+background-position: This property is used to position a background image within an element.
+
+box-sizing: This property is used to specify how the size of an element should be calculated, including padding and borders.
+
+opacity: This property is used to set the transparency of an element.
+
+transform: This property is used to apply 2D or 3D transformations to an element, such as rotate or scale.
+
+transition: This property is used to specify the duration and easing of a transition between different CSS property values.
+
+@media: This is used to create media queries, which allow you to apply different CSS styles based on the screen size or other conditions.
+
+@keyframes: This is used to create animations by defining keyframes and specifying the CSS properties and values that should be applied at each keyframe.
+
+flexbox and grid: These are used to create flexible and responsive layouts.
+
+border-radius: This property is used to add rounded corners to an element's border.
+
+text-shadow: This property is used to add a shadow effect to text.
+
+box-shadow: This property is used to add a shadow effect to an element.
+
+filter: This property is used to apply visual effects to an element, such as blur or brightness.
+
+z-index: This property is used to specify the stack order of elements, determining which element appears on top of others.
+
+transforms (2D and 3D): This property is used to apply 2D or 3D transformations to an element, such as rotate, skew, or translate.
+
+animation: This property is used to create animations by specifying the CSS properties and values that should be applied over a given duration and iteration.
+
+@font-face: This is used to import custom fonts from a server to be used on the website.
+
+::before and ::after: These are used to insert content before or after an element's content.
+
+@supports: This is used to apply styles based on the browser's support for a particular CSS feature.
 ```
 
 # JavaScript
@@ -156,4 +196,28 @@ function: This keyword is used to declare a function in JavaScript.
 return: This keyword is used to return a value from a function.
 
 Object.keys(): This
+
+document.querySelector(): This function is used to select an element by its CSS selector.
+
+document.querySelectorAll(): This function is used to select all elements that match a CSS selector.
+
+innerText: This property is used to set or get the text content of an element.
+
+setTimeout() and setInterval(): These functions are used to delay or repeat the execution of a function.
+
+JSON.stringify() and JSON.parse(): These functions are used to convert between JavaScript objects and JSON strings.
+
+fetch(): This function is used to make
+
+Array.forEach(): This function is used to execute a function for each element in an array.
+
+Array.map(): This function is used to create a new array with the results of calling a function for each element in an array.
+
+Array.filter(): This function is used to create a new array with all elements that pass a test in a function.
+
+Array.reduce(): This function is used to execute a function for each element in an array and reduce the array to a single value.
+
+Object.assign(): This method is used to copy the values of all enumerable own properties from one or more source objects to a target object.
+
+Promise: This object is used for asynchronous programming and to handle asynchronous
 ```
