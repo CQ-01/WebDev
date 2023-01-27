@@ -1,25 +1,27 @@
 # HTML
 ```bash
-<!DOCTYPE>: This element declares the type of HTML document.
+<!DOCTYPE>: HTML 문서의 타입을 선언한다
 
-<html>: This element is the root element of an HTML document and contains all other elements.
+<html>: HTML문서의 모든 element를 포함하는 기본 element이다.
 
-<head>: This element contains meta information about the document, such as the title, which is displayed in the browser's title bar or tab.
+<head>: 브라우저의 title bar나 tab에 전시되는 title과 같이 문서의 meta 정보가 들어가는 곳.
 
-<title>: This element specifies the title of the document, which is displayed in the browser's title bar or tab.
+<title>: 브라우저의 title bar나 tab에 전시되는 문서의 제목을 나타낸다.
 
-<body>: This element contains the visible content of the document, such as text, images, and links.
+<body>: 텍스트, 이미지, 링크와 같이 문서의 시각적 컨텐츠가 들어가는 곳.
 
-<h1> to <h6>: These elements define headings. <h1> defines the most important heading and <h6> defines the least important.
+<h1> to <h6>: 제목을 나타낸다 <h1>에서 <h6>으로 갈수록 덜 중요함.
 
-<p>: This element defines a paragraph.
+<p>: 한 구절을 나타낸다.
 
-<a>: This element defines a hyperlink.
+<a>: 하이퍼링크를 나타낸다.
 
-<img>: This element is used to embed images in a web page.
+<img>: 웹페이지에 이미지를 삽입한다.
 
-<div>: This element is a container for HTML elements, which can be used to group elements together and apply styles to them.
+<div>: HTML element들을 하나로 묶어 스타일을 일괄 적용할수 있다.
+```
 
+```bash
 <header>: This element represents a container for introductory content or a set of navigational links.
 
 <nav>: This element represents a section of a page that contains navigation links.
