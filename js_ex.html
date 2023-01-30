@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>현재 나이</h1>
     <script>
         var currentYear = new Date().getFullYear();
         var birthYear;
@@ -18,6 +19,7 @@
         document.write(birthYear + "년에 태어난 사람의 나이는 " + age + "세 입니다.")
     </script>
 
+    <h1>관심 세션</h1>
     <script>
         var session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인");
 
@@ -35,6 +37,32 @@
      }
     </script>
 
+    <h1>구구단</h1>
+    <script>
+        var i, j;
+        for (i = 1; i <= 9; i++) {
+            document.write("<h3>" + i + "단</h3>");
+            for (j = 1; j <= 9; j++) {
+                document.write(i + "X" + j + "=" + i*j + "<br>");
+            }
+         }
+    </script>
+
+    <script>
+        let memNum = prompt("입장객 수를 입력하세요")
+        let colNum = prompt("한 줄에 앉을 사람 수를 입력하세요")
+        let rowNum = memNum / colNum
+        var i, j;
+            for (i = 0; i < rowNum; i++) {
+                for (j = 1; j <= colNum; j++) {
+                    seatNo = i * colNum + j;
+                    if(seatNo > memNum) break;
+                    document.write("좌석" + seatNo + " ");
+                }
+                document.write("<br>");
+            }
+
+    </script>
 
 </body>
 </html>
