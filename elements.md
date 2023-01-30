@@ -179,11 +179,13 @@ animation: This property is used to create animations by specifying the CSS prop
 # JavaScript
 
 ```bash
-console.log(): This function is used to print output to the browser's console.
+console.log(): 파이썬의 print
 
 document.getElementById(): This function is used to select an element by its ID.
+ID에 따라 요소를 선택한다
 
 innerHTML: This property is used to set or get the HTML content of an element.
+
 
 addEventListener(): This function is used to add an event listener to an element, such as a click event.
 
